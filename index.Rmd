@@ -32,7 +32,7 @@ part 2:
 
 1. Find a scientific paper and analyze it after reproducing the data using ANOVA. 
 
-2. Write a 2/3 page paper on the paper and short discussion of reproducing the results of the study. 
+2. Write a 2/3 page summary on the paper and short discussion of reproducing the results of the study. 
 
 
 </div>
