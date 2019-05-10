@@ -1,6 +1,6 @@
 name: "Psych Stats 3400 Honors"
 navbar:
-  title: "Psych Stats 3400 Honors"
+  title: "Psych Stats 3400 Honors Sites"
   left:
     - text: "Home"
       href: index.html
