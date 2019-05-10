@@ -19,14 +19,19 @@ output: html_document
 
 # **Psych Stats 3400 Honors**
 
-Hononrs Students of psych stats 3400 students complete the assignment which is composed of two parts.
+Honors students of psychology statisitcs 3400 class complete the following assignment which is composed of two parts.
 
 ## Assignment details:
 Part 1:
+
 1. Students solve a fizzbuzz problem. 
+
 2. Demonstate understadning of snakes and ladder. 
+
 part 2: 
+
 1. Find a scientific paper and analyze it after reproducing the data using ANOVA. 
+
 2. Write a 2/3 page paper on the paper and short discussion of reproducing the results of the study. 
 
 
