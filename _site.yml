@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "Psych Stats 3400 Honors"
 navbar:
-  title: "MyLabJournal"
+  title: "Psych Stats 3400 Honors"
   left:
     - text: "Home"
       href: index.html
