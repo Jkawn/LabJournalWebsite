@@ -1,5 +1,5 @@
 ---
-title: "MyLabJournal"
+title: "Psych Stats 3400 Honors"
 output: html_document
 ---
 
