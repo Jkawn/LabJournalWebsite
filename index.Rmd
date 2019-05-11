@@ -38,7 +38,7 @@ part 2:
 </div>
 <div class="col-sm-6">
 
-### [When Delays Improve Memory: Stabilizing Memory in Children May Require Time](https://crumplab.github.io)
+### [When Delays Improve Memory: Stabilizing Memory in Children May Require Time]
 
 <a href = "https://crumplab.github.io">
 ![](images/logo.png)
