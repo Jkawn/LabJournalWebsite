@@ -7,7 +7,7 @@ navbar:
     - text: "R Basics Problem Assignment"
       href: journal.html
     - text: "Reproducible Statistical Analysis"
-      href: RFunction.html
-    - text: "Links"
+      href: Stats.html
+    - text: "Reproducible Statistical Analysis"
       href: Links.html
 output_dir: "docs"
