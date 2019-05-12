@@ -40,7 +40,7 @@ part 2:
 
 ### [When Delays Improve Memory: Stabilizing Memory in Children May Require Time]
 
-<a href = "https://crumplab.github.io">
+<a href = "https://journals.sagepub.com/doi/abs/10.1177/0956797615607350">
 ![](images/logo.png)
 </a>
 </div>
