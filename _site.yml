@@ -6,8 +6,8 @@ navbar:
       href: index.html
     - text: "R Basics Problem Assignment"
       href: journal.html
-    - text: "Reproducible Statistical Analysis"
-      href: Stats.html
+    - text: "Anova"
+      href: Anova.html
     - text: "Reproducible Statistical Analysis"
       href: Links.html
 output_dir: "docs"
