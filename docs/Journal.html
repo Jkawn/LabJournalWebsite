@@ -519,6 +519,52 @@ div.tocify {
 ## [1] &quot;Fizz&quot;
 ## [1] &quot;Buzz&quot;</code></pre>
 <p>#Snakes and Ladder Problem:</p>
+<pre class="r"><code>save_rolls &lt;- c()
+for (sims in 1:1000){
+  current_tile&lt;-1
+  number_of_rolls&lt;-0
+  while(current_tile !=25 ){
+    number_of_rolls &lt;- number_of_rolls+1
+    roll&lt;-sample(c(1,2,3,4,5,6),1)
+    prev_curr_tile &lt;- current_tile
+    current_tile &lt;-current_tile+roll
+    
+    if (current_tile &gt; 25){
+      current_tile &lt;- prev_curr_tile
+    } else {
+      current_tile &lt;- prev_curr_tile + roll
+    }
+    
+    if (current_tile == 3){
+      current_tile&lt;-11
+    } else if (current_tile == 6){
+      current_tile&lt;-17
+    } else if (current_tile == 9){
+      current_tile&lt;-18
+    } else if (current_tile == 10){
+      current_tile&lt;-12
+    } else if (current_tile == 14){
+      current_tile&lt;-4
+    } else if (current_tile == 19){
+      current_tile&lt;-8
+    } else if (current_tile == 22){
+      current_tile&lt;-20
+    } else if (current_tile == 24){
+      current_tile&lt;-16
+    } else {
+      current_tile &lt;- current_tile
+    }
+  }
+  
+  save_rolls[sims] &lt;- number_of_rolls
+}
+avg&lt;-mean(save_rolls)
+avg</code></pre>
+<pre><code>## [1] 13.979</code></pre>
+<div class="figure">
+<img src="images/SnakesLadders.png" alt="Snakes and Ladders" />
+<p class="caption">Snakes and Ladders</p>
+</div>
 
 
 

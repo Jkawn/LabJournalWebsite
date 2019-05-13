@@ -18,6 +18,81 @@ output: html_document
 <div class="col-sm-6">
 
 #Anova Analysis: No delay condition
-#Anova Analysis: Delay Condition
+```{r}
+library(data.table)
+
+df <- fread("nodelay datasets.csv")
+```
+
+```{r}
+library(dplyr)
+
+
+mean_accuracies <- df %>%
+                    group_by(phases,pairtypes) %>%
+                    summarise(mean_Acc = mean(accuracys))
+
+library(ggplot2)
+
+ggplot(mean_accuracies, aes(x=phases,
+                            y=mean_Acc,
+                            group=pairtypes,
+                            fill=pairtypes))+
+  geom_bar(stat="identity",position="dodge")
+
+
+S_accuracies <- df %>%
+                    filter(phases != 2) %>%
+                    mutate(subjects = as.factor(subjects),
+                           phases = as.factor(phases),
+                           pairtypes = as.factor(pairtypes)) %>%
+                    group_by(subjects,phases,pairtypes) %>%
+                    summarise(mean_Acc = mean(accuracys))
+
+
+summary(aov(mean_Acc ~ phases*pairtypes + Error(subjects/(phases*pairtypes)), S_accuracies))
+
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(mean_accuracies, aes(x=pairtypes,
+                            y=mean_Acc,
+                            group=phases, 
+                            fill=phases))+
+  
+  geom_bar(stat="identity",position="dodge")
+```
+
+
+#Anova Analysis: Both Delay and No delay Conditions
+
+```{r}
+library(data.table)
+
+df2 <- fread("bothdata.csv")
+```
+
+```{r}
+library(dplyr)
+
+
+mean2_accuracies <- df2 %>%
+                    group_by(subjectt,experimentt,phasee,pairtypee, blockk) %>%
+                    summarise(mean2_accuracies = mean(accuracyy))
+
+SS_accuracies <- df2 %>%
+                    filter(phasee != 2,
+                           blockk != 2) %>%
+                    mutate(subjectt = as.factor(subjectt),
+                           phasee = as.factor(phasee),
+                           experimentt = as.factor(experimentt),
+                           pair_types = as.factor(pairtypee)) %>%
+                    group_by(subjectt,experimentt,phasee,pairtypee) %>%
+                    summarise(mean2_accuracies = mean(accuracyy))
+
+summary(aov(mean2_accuracies ~ experimentt*phasee*pairtypee + Error(subjectt/(phasee*pairtypee)), SS_accuracies))
+```
 
 
