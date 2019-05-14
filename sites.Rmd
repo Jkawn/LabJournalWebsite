@@ -1,0 +1,25 @@
+---
+title: "ANOVA"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+#Sources:
+
+Sloutsky, Vladimir, 2015, "Data for Psychological Science article            "When Delays Improve Memory: Stabilizing Memory in Children           May Require Time"", https://doi.org/10.7910/DVN/HDMGLY,              Harvard Dataverse, V1, UNF:6:2BfMd4jZ6T4QWtNsxcpZ/w==                [fileUNF]
+
+Darby, K., & Sloutsky, V. (2015). When Delays Improve Memory:                 Stabilizing Memory in Children May Require Time.                     Psychological Science, 26(12), 1937-1946.
+

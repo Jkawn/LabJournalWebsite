@@ -1,6 +1,6 @@
 name: "Psych Stats 3400 Honors"
 navbar:
-  title: "Psych Stats 3400 Honors Sites"
+  title: "Janntaul Kawnine's Psych Stats 3400 Honors Site"
   left:
     - text: "Home"
       href: index.html
@@ -10,4 +10,6 @@ navbar:
       href: Anova.html
     - text: "Reproducible Statistical Analysis"
       href: Links.html
+    - text: "Sites"
+      href: Sites.html
 output_dir: "docs"

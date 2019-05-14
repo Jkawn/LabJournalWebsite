@@ -54,6 +54,7 @@ summary(aov(mean_Acc ~ phases*pairtypes + Error(subjects/(phases*pairtypes)), S_
 
 ```
 
+Graph#2 Mean Accurcies across different phases and pairtypes for no delay conditions. 
 ```{r}
 library(ggplot2)
 

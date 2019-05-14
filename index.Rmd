@@ -1,5 +1,5 @@
 ---
-title: "Psych Stats 3400 Honors"
+title: "Janntaul Kawnine: Psych Stats 3400 Honors"
 output: html_document
 ---
 
