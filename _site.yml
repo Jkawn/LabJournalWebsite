@@ -5,11 +5,11 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "R Basics Problem Assignment"
-      href: journal.html
+      href: Journal.html
     - text: "Anova"
       href: Anova.html
     - text: "Reproducible Statistical Analysis"
       href: Links.html
     - text: "Sites"
-      href: Sites.html
+      href: sites.html
 output_dir: "docs"
