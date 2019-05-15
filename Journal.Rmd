@@ -1,7 +1,7 @@
 ---
 title: "R Basics"
-output:html_document
-  html_document:
+output:
+  html_document
     toc: true
     toc_float: true
     collapsed: false
