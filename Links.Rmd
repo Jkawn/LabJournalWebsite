@@ -3,7 +3,10 @@ title: "Writing and Reanalysis"
 output: html_document
 ---
 
-### Summary:
+
+
+
+# **Summary:**
 Janntaul Kawnine
 Psych Statistics 3400 Honors
 Professor Crump
@@ -22,7 +25,7 @@ Part 1: Summary of the paper
 	
 	There are few theories related to why the children failed to form memory traces for no delay. For example, it is possible that children have interference due to immaturity of the hippocampus. Also, they may have difficulty binding information in memory at the age as found by another research study. Also, it is possible that hippocampus-dependent activities are sensitive to time due to relationship between consolidation and task performance.Even though the study doesn’t really find a direct correction between the retroactive interference, consolidation, and generalization, the study definitely sheds more light to understand the memory and cognitive development at an early stage of human development. 
 
-#Reanalysis:
+# **Reanalysis:**
 
 Part 2: Reanalysis of one of the ANOVA calculations:
 

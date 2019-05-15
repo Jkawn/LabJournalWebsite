@@ -21,7 +21,7 @@ output: html_document
 
 Honors students of psychology statisitcs 3400 class complete the following assignment which is composed of two parts.
 
-## Assignment details:
+# **Assignment details**
 Part 1:
 
 1. Students solve a fizzbuzz problem. 
@@ -38,10 +38,10 @@ part 2:
 </div>
 <div class="col-sm-6">
 
-### [When Delays Improve Memory: Stabilizing Memory in Children May Require Time]
+### [When Delays Improve Memory: Stabilizing Memory in Children May Require Time]<a href = "https://journals.sagepub.com/doi/abs/10.1177/0956797615607350">
 
 <a href = "https://journals.sagepub.com/doi/abs/10.1177/0956797615607350">
-![](images/logo.png)
+![](Jann.png)
 </a>
 </div>
 

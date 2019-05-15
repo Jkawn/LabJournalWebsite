@@ -14,7 +14,9 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-#FizzBuzz problem:
+
+
+# **FizzBuzz problem:**
 
 ```{r}
 for (C in 1:100) {
@@ -25,7 +27,7 @@ for (C in 1:100) {
 }
 ```
 
-#Snakes and Ladder Problem:
+# **Snakes and Ladder Problem:**
 
 ```{r}
 save_rolls <- c()

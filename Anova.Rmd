@@ -17,7 +17,9 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-#Anova Analysis: No delay condition
+
+
+# **Anova Analysis: No delay condition**
 ```{r}
 library(data.table)
 
@@ -67,7 +69,7 @@ ggplot(mean_accuracies, aes(x=pairtypes,
 ```
 
 
-#Anova Analysis: Both Delay and No delay Conditions
+# **Anova Analysis: Both Delay and No delay Conditions**
 
 ```{r}
 library(data.table)

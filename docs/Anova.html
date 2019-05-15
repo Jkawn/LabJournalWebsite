@@ -328,7 +328,10 @@ $(document).ready(function () {
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-<p>#Anova Analysis: No delay condition</p>
+
+
+<div id="anova-analysis-no-delay-condition" class="section level1">
+<h1><strong>Anova Analysis: No delay condition</strong></h1>
 <pre class="r"><code>library(data.table)
 
 df &lt;- fread(&quot;nodelay datasets.csv&quot;)</code></pre>
@@ -403,7 +406,9 @@ ggplot(mean_accuracies, aes(x=pairtypes,
   
   geom_bar(stat=&quot;identity&quot;,position=&quot;dodge&quot;)</code></pre>
 <p><img src="Anova_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>#Anova Analysis: Both Delay and No delay Conditions</p>
+</div>
+<div id="anova-analysis-both-delay-and-no-delay-conditions" class="section level1">
+<h1><strong>Anova Analysis: Both Delay and No delay Conditions</strong></h1>
 <pre class="r"><code>library(data.table)
 
 df2 &lt;- fread(&quot;bothdata.csv&quot;)</code></pre>
@@ -454,6 +459,7 @@ summary(aov(mean2_accuracies ~ experimentt*phasee*pairtypee + Error(subjectt/(ph
 ## Residuals                    48 0.3205 0.00668                 
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+</div>
 
 
 
